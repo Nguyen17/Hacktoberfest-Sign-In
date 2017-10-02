@@ -1,0 +1,35 @@
+/* CSS Class */
+.center h1, h2, p, li {
+    text-align: center;
+}
+
+/* -------- */
+.header-bg{
+    background-color: #f76c5e;
+}
+.jumbotron-fluid{
+    /* background-color: #f76c5e; */
+    
+    text-align: center;
+}
+.jumbotron-fluid h1{
+    color: white;
+    font-size: 8rem;
+}
+.jumbotron-fluid p{
+    color: white;
+   
+}
+#footer{
+    background-color: blue
+    text-align: center;
+    color: red;
+    bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .jumbotron-fluid h1 {
+        font-size: 4rem;
+    }
+}
+
