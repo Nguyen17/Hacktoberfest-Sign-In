@@ -2,8 +2,7 @@
 The goal of this repo is to help beginners doing their first pull requests. Feel free to join!
 
 ## Instruction
-   - In the index file. Look for the '<ul>' tag. 
-   - Then insert a '<li>' tag with your link to your profile.
+In the index file. Look for the '<ul>' tag. Then insert a '<li>' tag with your link to your profile.
 
 
 ## Git and Pull Request Resources
