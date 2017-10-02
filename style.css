@@ -1,8 +1,10 @@
 /* CSS Class */
-.center h1, h2, p, li {
+.center h2{
     text-align: center;
 }
-
+.center li{
+    text-align: center;
+}
 li {
     list-style: none;
 }
