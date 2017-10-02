@@ -1,8 +1,9 @@
-# Hactoberfest Sign In Sheet 2017!
-
-
-
+# Hacktoberfest Sign In Sheet 2017!
 The goal of this repo is to help beginners doing their first pull requests. Feel free to join!
+
+## Instruction
+In the index file. Look for the 'ul' tag. Then insert a 'li' tag with your link to your profile.
+
 
 ## Git and Pull Request Resources
   - [Github](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
@@ -26,3 +27,10 @@ The goal of this repo is to help beginners doing their first pull requests. Feel
 ### Installation
 
 Make sure [git](https://nodejs.org/) is installed.
+
+
+
+
+
+
+
