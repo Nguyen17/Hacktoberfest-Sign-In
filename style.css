@@ -3,6 +3,9 @@
     text-align: center;
 }
 
+li {
+    list-style: none;
+}
 /* -------- */
 .header-bg{
     background-color: #f76c5e;
