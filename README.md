@@ -1,8 +1,8 @@
 # Hacktoberfest Sign In Sheet 2017!
-The goal of this repo is to help beginners doing their first pull requests. Feel free to join!
+The goal of this repo is to help beginners who are doing their first pull requests. Feel free to join!
 
 ## Instruction
-In the index file. Look for the 'ul' tag. Then insert a 'li' tag with your link to your profile.
+In the index file, look for the 'ul' tag. Then insert a 'li' tag with your link to your profile.
 
 
 ## Git and Pull Request Resources
@@ -10,7 +10,7 @@ In the index file. Look for the 'ul' tag. Then insert a 'li' tag with your link 
   - [The Net Ninja](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
   - [Awesome-Git](https://github.com/dictcp/awesome-git)
 
-# How to create a pull request
+# How to Create a Pull Request
     
 
   - Click on the fork on the top to fork this repo.
@@ -18,11 +18,11 @@ In the index file. Look for the 'ul' tag. Then insert a 'li' tag with your link 
   - Hit the clone button on your repo of the forked repo and copy the given link.
   - On your terminal / command prompt, type "git  clone [put the link here]".
   - Change the index file in the folder.
-  - Afterwards, on your terminal / command prompt, type "git add index.html". Then 'git commit -m "[type a message]" '.
+  - Afterward, on your terminal / command prompt, type "git add index.html"; then 'git commit -m "[type a message]" '.
   - Push the commit. For example, type "git push origin master".
-  - Go to back to the original repo
-  - Hit new pull request and compare between forks.
-  - Confirm the pull request and thats it!
+  - Go to back to the original repo.
+  - Hit "new pull request" and compare between forks.
+  - Confirm the pull request and that's it!
 
 ### Installation
 
