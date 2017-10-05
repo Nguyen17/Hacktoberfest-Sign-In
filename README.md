@@ -11,7 +11,7 @@ In the index file, look for the 'ul' tag. Then insert a 'li' tag with your link 
   - [Awesome-Git](https://github.com/dictcp/awesome-git)
 
 # How to Create a Pull Request
-    
+
 
   - Click on the fork on the top to fork this repo.
   - Go to your repo where you fork the project.
@@ -26,11 +26,4 @@ In the index file, look for the 'ul' tag. Then insert a 'li' tag with your link 
 
 ### Installation
 
-Make sure [git](https://nodejs.org/) is installed.
-
-
-
-
-
-
-
+Make sure [git](https://git-scm.com/book/id/v2/Getting-Started-Installing-Git) is installed.
