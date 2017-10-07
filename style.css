@@ -36,7 +36,7 @@ li {
 }
 
 .list-grid ol{
-    overflow: auto;
+    column-count: 3;
     height: 100%;
 }
 
