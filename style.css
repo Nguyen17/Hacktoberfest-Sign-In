@@ -10,6 +10,9 @@
 }
 li {
     list-style: none;
+    flex: 1;
+    padding: 0 20px 0 20px;
+    box-shadow: 0 0 3px black;
 }
 /* -------- */
 .header-bg{
@@ -36,8 +39,9 @@ li {
 }
 
 .list-grid ol{
-    overflow: auto;
-    height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
 }
 
 @media (max-width: 768px) {
