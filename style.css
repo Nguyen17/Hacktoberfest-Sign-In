@@ -1,4 +1,7 @@
 /* CSS Class */
+* {
+    box-sizing: border-box;
+}
 .center h2{
     text-align: center;
 }
@@ -26,10 +29,15 @@ li {
    
 }
 #footer{
-    background-color: blue
+    background-color: blue;
     text-align: center;
     color: red;
     bottom: 0px;
+}
+
+.list-grid ol{
+    column-count: 3;
+    height: 100%;
 }
 
 @media (max-width: 768px) {
