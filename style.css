@@ -2,6 +2,13 @@
 * {
     box-sizing: border-box;
 }
+h1{
+    margin: 0;
+
+}
+.jumbotron-fluid{
+    padding: 10px;
+}
 .center h2{
     text-align: center;
 }
