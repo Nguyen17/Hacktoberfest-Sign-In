@@ -37,7 +37,6 @@ li {
 
 .list-grid ol{
     column-count: 3;
-    height: 100%;
 }
 
 @media (max-width: 768px) {
