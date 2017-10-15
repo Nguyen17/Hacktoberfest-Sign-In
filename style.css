@@ -2,6 +2,13 @@
 * {
     box-sizing: border-box;
 }
+h1{
+    margin: 0;
+
+}
+.jumbotron-fluid{
+    padding: 10px;
+}
 .center h2{
     text-align: center;
 }
@@ -36,8 +43,7 @@ li {
 }
 
 .list-grid ol{
-    overflow: auto;
-    height: 100%;
+    column-count: 3;
 }
 
 @media (max-width: 768px) {
