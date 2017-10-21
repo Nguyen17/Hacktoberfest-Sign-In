@@ -1,3 +1,5 @@
+![hacktoberfest-2017-social-card-894a0558dba205f7142f3130c06823d72427a9d751d0f8c7db8a0079397178aa](https://user-images.githubusercontent.com/18082507/31850802-39469b4e-b683-11e7-986e-c408eb01d35a.jpg)
+
 # Hacktoberfest Sign In Sheet 2017!
 The goal of this repo is to help beginners who are doing their first pull requests. Feel free to join!
 
