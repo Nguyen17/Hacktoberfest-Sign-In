@@ -24,16 +24,16 @@ li {
 }
 .jumbotron-fluid{
     /* background-color: #f76c5e; */
-    
+
     text-align: center;
 }
 .jumbotron-fluid h1{
-    color: white;
+    color: blue;
     font-size: 8rem;
 }
 .jumbotron-fluid p{
     color: white;
-   
+
 }
 #footer{
     background-color: blue;
@@ -51,4 +51,3 @@ li {
         font-size: 4rem;
     }
 }
-
