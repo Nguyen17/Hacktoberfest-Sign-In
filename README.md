@@ -1,5 +1,5 @@
 # Hacktoberfest Sign In Sheet 2017!
-The goal of this repo is to help beginners who are doing their first pull requests. Feel free to join!
+The goal of this repo is to help the beginners who are doing their first pull requests. Feel free to join!
 
 ## Instruction
 In the index file, look for the 'ol' tag. Then insert a 'li' tag with your link to your profile.
@@ -13,7 +13,7 @@ In the index file, look for the 'ol' tag. Then insert a 'li' tag with your link 
 # How to Create a Pull Request
 
 
-  - Click on the fork on the top to fork this repo.
+  - Click on the fork icon located on top right corner to fork this repo.
   - Go to your repo where you fork the project.
   - Hit the clone button on your forked repo and copy the given link.
   - On your terminal / command prompt, type "git clone [put the link here]".
