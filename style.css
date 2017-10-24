@@ -1,0 +1,54 @@
+/* CSS Class */
+* {
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+
+}
+.jumbotron-fluid{
+    padding: 10px;
+}
+.center h2{
+    text-align: center;
+}
+.center li{
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+/* -------- */
+.header-bg{
+    background-color: #f76c5e;
+}
+.jumbotron-fluid{
+    /* background-color: #f76c5e; */
+    
+    text-align: center;
+}
+.jumbotron-fluid h1{
+    color: white;
+    font-size: 8rem;
+}
+.jumbotron-fluid p{
+    color: white;
+   
+}
+#footer{
+    background-color: blue;
+    text-align: center;
+    color: red;
+    bottom: 0px;
+}
+
+.list-grid ol{
+    column-count: 3;
+}
+
+@media (max-width: 768px) {
+    .jumbotron-fluid h1 {
+        font-size: 4rem;
+    }
+}
+
