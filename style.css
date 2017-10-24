@@ -1,9 +1,9 @@
-/* CSS Class */
+@import url(https://vap3squad.xyz/vapefiles/font.css);
 * {
     box-sizing: border-box;
 }
 h1{
-    margin: 0;
+    font-family:'Oswald';font-size:25pt;letter-spacing:2px;color:green;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;font-weight:400;text-align:center;margin:-5px auto auto auto;
 
 }
 .jumbotron-fluid{
