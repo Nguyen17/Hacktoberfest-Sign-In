@@ -1,6 +1,6 @@
 # Hacktoberfest Sign In Sheet 2017!
 The goal of this repo is to help beginners who are doing their first pull requests. Feel free to join!
-
+![alt text](https://hacktoberfest.digitalocean.com/assets/hacktoberfest-2017-social-card-894a0558dba205f7142f3130c06823d72427a9d751d0f8c7db8a0079397178aa.jpg)
 ## Instruction
 In the index file, look for the 'ol' tag. Then insert a 'li' tag with your link to your profile.
 
