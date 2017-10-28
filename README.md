@@ -6,6 +6,7 @@ In the index file, look for the 'ol' tag. Then insert a 'li' tag with your link 
 
 
 ## Git and Pull Request Resources
+- Alyssa ([@rageunleashed69](https://github.com/rageunleashed69)), Head Dev, Computer Science Major[Lab]
   - [Github](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
   - [The Net Ninja](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
   - [Awesome-Git](https://github.com/dictcp/awesome-git)
