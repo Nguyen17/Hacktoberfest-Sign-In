@@ -2,43 +2,51 @@
 * {
     box-sizing: border-box;
 }
+
 h1{
     margin: 0;
 
 }
+
 .jumbotron-fluid{
     padding: 10px;
 }
+
 .center h2{
     text-align: center;
 }
+
 .center li{
     text-align: center;
 }
+
 li {
     list-style: none;
 }
+
 /* -------- */
 .header-bg{
     background-color: #f76c5e;
 }
+
 .jumbotron-fluid{
-    /* background-color: #f76c5e; */
-    
+    /* background-color: #f76c5e; */    
     text-align: center;
 }
+
 .jumbotron-fluid h1{
-    color: white;
+    color: #ffffff;
     font-size: 8rem;
 }
+
 .jumbotron-fluid p{
-    color: white;
-   
+    color: #ffffff;   
 }
+
 #footer{
-    background-color: blue;
+    background-color: #0000ff;
     text-align: center;
-    color: red;
+    color: #ff0000;
     bottom: 0px;
 }
 
@@ -51,4 +59,3 @@ li {
         font-size: 4rem;
     }
 }
-
