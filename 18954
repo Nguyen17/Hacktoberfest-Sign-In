@@ -1,0 +1,39 @@
+#include<stdio.h>
+
+int main()
+{
+        int tc,i,j;
+        scanf("%d",&tc);
+        int a[tc][1000002],h,car,carno,digit;
+        for(i=0;i<tc;i++)
+                scanf("%d",&a[i][1000000]);
+        for(i=0;i<tc;i++)
+        {      a[i][0]=1;
+               carno=1;
+               car=0;
+                for(j=1;j<=a[i][1000000];j++)
+                {
+                        for(h=0;h<carno;h++)
+                        {
+                               digit=a[i][h]*j+car;
+                               car=digit/10;
+                               a[i][h]=digit%10;
+                        }
+                        while(car>0)
+                        {
+                                carno++;
+                                a[i]   [carno]=car%10;
+                                car=car/10;
+                        }
+                }
+                a[i][1000001]=carno-1;
+        }
+        for(i=0;i<tc;i++)
+        {
+                for(h=a[i][1000001];h>=0;h--)
+                        printf("%d",a[i][h]);
+                printf("\n");
+        }
+        return 0;
+
+}
