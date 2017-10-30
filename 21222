@@ -1,0 +1,19 @@
+#include <stdio.h>
+ 
+int main()
+{
+	long long int hanoi(int n);
+	long long int n;
+	scanf("%lld", &n);
+	printf("%lld", hanoi(n));
+	return 0;
+}
+
+long long int hanoi(int n) 
+{
+	if (n==1)
+		return 1;
+	else
+		return 1+2*hanoi(n-1);
+}
+ 
