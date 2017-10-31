@@ -6,18 +6,20 @@ h1{
     margin: 0;
 
 }
+body {
+    background-color: #453F3F;
+}
 .jumbotron-fluid{
     padding: 10px;
 }
 .center h2{
     text-align: center;
+    color: white;
 }
 .center li{
     text-align: center;
 }
-li {
-    list-style: none;
-}
+
 /* -------- */
 .header-bg{
     background-color: #f76c5e;
@@ -42,8 +44,23 @@ li {
     bottom: 0px;
 }
 
+
+
 .list-grid ol{
     column-count: 3;
+}
+
+li {
+    margin-bottom: 1.5vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    list-style: none;
+    border: 3px dashed #1A1C1B;
+    border-radius: 40px 10px;
+    background-color: #1A1C1B;
+}
+a {
+    color: white;
 }
 
 @media (max-width: 768px) {
