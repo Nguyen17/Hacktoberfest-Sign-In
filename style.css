@@ -1,6 +1,8 @@
 /* CSS Class */
 * {
     box-sizing: border-box;
+    list-style:none;
+    margin-top:0px;    
 }
 h1{
     margin: 0;
