@@ -42,6 +42,10 @@ li {
     bottom: 0px;
 }
 
+#special {
+    font-size: 21px;
+}
+
 .list-grid ol{
     column-count: 3;
 }
