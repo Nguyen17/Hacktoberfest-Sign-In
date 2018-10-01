@@ -4,13 +4,12 @@
 }
 h1{
     margin: 0;
-
-}
-.jumbotron-fluid{
-    padding: 10px;
 }
 .center h2{
     text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
 }
 .center li{
     text-align: center;
@@ -20,12 +19,8 @@ li {
 }
 /* -------- */
 .header-bg{
-    background-color: #f76c5e;
-}
-.jumbotron-fluid{
-    /* background-color: #f76c5e; */
-    
-    text-align: center;
+    background-color: #f76c5e !important;
+	text-align: center;
 }
 .jumbotron-fluid h1{
     color: white;
@@ -33,17 +28,18 @@ li {
 }
 .jumbotron-fluid p{
     color: white;
-   
-}
-#footer{
-    background-color: blue;
-    text-align: center;
-    color: red;
-    bottom: 0px;
 }
 
 .list-grid ol{
     column-count: 3;
+}
+
+#fullpage > div:nth-child(2) {
+	background-color: white !important;
+}
+
+#fullpage > div {
+	background-color: lightgrey;
 }
 
 @media (max-width: 768px) {
