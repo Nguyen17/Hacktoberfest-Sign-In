@@ -1,4 +1,4 @@
-# Hacktoberfest Sign In Sheet 2017!
+# Hacktoberfest Sign In Sheet 2018!
 The goal of this repo is to help beginners who are doing their first pull requests. Feel free to join!
 
 ## Instruction
