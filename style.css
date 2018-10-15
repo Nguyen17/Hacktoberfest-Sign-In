@@ -2,6 +2,8 @@
 * {
     box-sizing: border-box;
 }
+body{
+    background:linear-gradient(to right,#487EB0,#25CCF7);
 h1{
     margin: 0;
 
