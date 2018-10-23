@@ -45,7 +45,7 @@ li {
 .list-grid ol{
     column-count: 3;
 }
-
+/*Media Query*/
 @media (max-width: 768px) {
     .jumbotron-fluid h1 {
         font-size: 4rem;
