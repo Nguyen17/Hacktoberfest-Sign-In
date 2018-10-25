@@ -1,4 +1,4 @@
-# Hacktoberfest Sign In Sheet 2017!
+# Hacktoberfest Sign In Sheet 2018!
 The goal of this repo is to help beginners who are doing their first pull requests. Feel free to join!
 
 ## Instruction
@@ -11,7 +11,6 @@ In the index file, look for the 'ol' tag. Then insert a 'li' tag with your link 
   - [Awesome-Git](https://github.com/dictcp/awesome-git)
 
 # How to Create a Pull Request
-
 
   - Click on the fork on the top to fork this repo.
   - Go to your repo where you forked the project.
