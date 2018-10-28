@@ -1,0 +1,4 @@
+#include <stdio.h>
+void main(void){
+  printf("Mi piaciono le magliette gratis :D");
+}
