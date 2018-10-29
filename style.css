@@ -20,7 +20,7 @@ li {
 }
 /* -------- */
 .header-bg{
-    background-color: #f76c5e;
+    background:linear-gradient(to right,#f76c5e,#f44c53);
 }
 .jumbotron-fluid{
     /* background-color: #f76c5e; */
