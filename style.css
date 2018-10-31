@@ -1,4 +1,14 @@
 /* CSS Class */
+* {
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+
+}
+.jumbotron-fluid{
+    padding: 10px;
+}
 .center h2{
     text-align: center;
 }
@@ -26,10 +36,14 @@ li {
    
 }
 #footer{
-    background-color: blue
+    background-color: blue;
     text-align: center;
     color: red;
     bottom: 0px;
+}
+
+.list-grid ol{
+    column-count: 3;
 }
 
 @media (max-width: 768px) {
