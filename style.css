@@ -43,12 +43,24 @@ li {
 }
 
 .list-grid ol{
-    column-count: 3;
+    column-count: 1;
 }
 
 @media (max-width: 768px) {
     .jumbotron-fluid h1 {
         font-size: 4rem;
     }
+}
+
+@media only screen and (min-width: 768px) {
+    .list-grid ol{
+        column-count: 2;
+    }   
+}
+
+@media only screen and (min-width: 1000px) {
+    .list-grid ol{
+        column-count: 3;
+    }   
 }
 
