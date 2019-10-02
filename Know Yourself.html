@@ -1,0 +1,166 @@
+<html>
+
+<head>
+<title>Power of Positivity</title>
+</head>
+
+<style>
+.button:hover {
+	background-color: #990000;
+	cursor: pointer;
+	border: none;
+	font-size: 20px;
+}
+
+div {
+    background-color: #F4DECB;
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+	text-align:center;
+	position: relative;
+    border-radius: 40px;
+}
+
+div1 {
+    background-color: #96858F;
+    width: auto;
+	padding: 10px;
+	
+	position: relative;
+	left: 45%;
+	top: 50px;
+	margin-left: -100px;
+	
+	border: 5px solid LAVENDER;
+    border-radius: 20px;
+}
+</style>
+
+<body style="background:#94618E">
+
+<div style="font-size:60px; font-family: Comic Sans MS">KNOW YOURSELF</div>
+</div>
+
+<div1 style="font-size:30px; font-family: Comic Sans MS"> NAME:
+<input type="text" id="t1" style="height: 30px; background:#9099A2; vertical-align: middle;">
+</div1>
+</br></br></br>
+<div1 style="left: 620px; font-size:30px; font-family: Comic Sans MS"> AGE:
+<input type="number" id="t2" style="height: 30px; background:#9099A2; vertical-align: middle;">
+</div1>
+</br></br></br>
+<div1 style="left: 625px; font-size:30px; font-family: Comic Sans MS">
+<input type="radio" name="gender" id="gg"> Girl &nbsp &nbsp &nbsp &nbsp Boy
+<input type="radio" name="gender" id="gb">
+</div1>
+
+<script>
+
+function find(){
+
+	girl=['Adorable','Adventurous','Ambitious','Awesome',
+		'Beautiful','Bold','Brainy','Brave','Broad-minded',
+		'Calm','Caring','Cool','Cheerful','Confident','Creative','Clever','Credible',
+		'Daring','Delightful', 'Dazzling','Dedicated','Determined',
+		'Enthusiastic','Energetic','Enchanting','Encouraging','Extraordinary','Elegant','Exceptional','Emotional',
+		'Inspiring','Ingenious','Impressive', 'Innovative','Incandescent','Impartial','Imaginative','Intellectual','Intelligent',
+		'Keen','Kindhearted','Knowledgeable',
+		'Lovable','Loyal',
+		'Mettlesome','Majestic','Motivating','Modest',
+		'Optimistic','Open-minded',
+		'Passionate','Patient','Practical','Polite',
+		'Ravishing',
+		'Spirited','Sincere','Sensible','Sensitive','Shy','Straightforward','Sympathetic',
+		'Thrilling','Trustworthy','Thoughtful',
+		'Unselfish',
+		'Vivacious','Valiant',
+		'Welcoming','Warmhearted'
+		];
+
+	boy=['Adorable','Adventurous','Ambitious','Awesome',
+		'Brainy','Brave','Broad-minded',
+		'Calm','Caring','Cool','Cheerful','Confident','Creative','Clever','Credible','Charming',
+		'Daring','Delightful','Dedicated','Determined','Dashing',
+		'Enthusiastic','Energetic','Enchanting','Encouraging','Extraordinary','Elegant','Exceptional','Emotional',
+		'Inspiring','Ingenious','Impressive', 'Innovative','Incandescent','Impartial','Imaginative','Intellectual','Intelligent',
+		'Keen','Kindhearted','Knowledgeable',
+		'Lovable','Loyal',
+		'Mettlesome','Majestic','Motivating','Modest',
+		'Optimistic','Open-minded',
+		'Passionate','Patient','Practical','Polite',
+		'Spirited','Sincere','Sensible','Sensitive','Shy','Straightforward','Sympathetic','Smart',
+		'Thrilling','Trustworthy','Thoughtful',
+		'Unselfish',
+		'Valiant',
+		'Welcoming','Warmhearted','Worthy'
+		];
+		
+		name=document.getElementById('t1').value.toUpperCase();
+		age=parseInt(document.getElementById('t2').value);
+		
+		var gender=0;
+		
+		if(document.getElementById('gg').checked){
+			gender=1;
+		}
+		else if(document.getElementById('gb').checked){
+			gender=2;
+		}
+				
+		if(gender!=0 && name!="" && age>0&& age<101 && name[0]>='A' && name[0]<='Z'){
+
+			document.getElementById("tag").innerHTML="<b>"+name+"</b></br>";
+			if(name.length<=4){
+				var ab=name.length+parseInt(age)%(name.length/2)+2;
+			}
+			else{
+				var ab=name.length+age%(name.length/2);
+			}
+		
+			var i=0;
+			var x=0;
+		
+			while(i<name.length){
+				x=x+name.charCodeAt(i);
+				i++;
+			}
+			x=x+age;
+			
+			i=0;
+			var ch=0;
+		
+			while(i<ab){
+				if(gender==1){
+					x=x+(age%name.length)+11;
+					x=x%(girl.length);
+					ch=x;
+					document.getElementById("tag").innerHTML+="<b>"+girl[ch]+"</b></br>";
+				}
+				else{
+					x=x+(age%name.length)+11;
+					x=x%(boy.length);
+					ch=x;
+					document.getElementById("tag").innerHTML+="<b>"+boy[ch]+"</b></br>";
+				}
+				i++;
+			}
+		}
+		else{
+			document.getElementById("tag").innerHTML="<b style='font-family: Verdana'>Invalid Details</b>";
+		}
+}
+</script>
+
+<button 
+class="button"
+style="height: 40px; width: 150px; font-size: 20px; font-family: Comic Sans MS; font-style: bold; position: relative; left: 408px; top: 120px; border-radius: 4px;" 
+onclick=find()>
+<b>KNOW</b>
+</button>
+
+<div id="tag" style="font-family: Freestyle Script; font-size: 40px; width: 360px; background: #256256; left:450px; top: 120px;"> </b> </div>
+
+</body>
+
+</html>
