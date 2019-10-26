@@ -28,8 +28,8 @@ li {
     text-align: center;
 }
 .jumbotron-fluid h1{
-    color: white;
-    font-size: 8rem;
+    color: black;
+    font-size: 10rem;
 }
 .jumbotron-fluid p{
     color: white;
@@ -38,7 +38,7 @@ li {
 #footer{
     background-color: blue;
     text-align: center;
-    color: red;
+    color: pink;
     bottom: 0px;
 }
 
@@ -48,7 +48,7 @@ li {
 
 @media (max-width: 768px) {
     .jumbotron-fluid h1 {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 }
 
