@@ -1,54 +1,78 @@
-/* CSS Class */
 * {
+    margin:0;
+    padding: 0;
     box-sizing: border-box;
 }
-h1{
-    margin: 0;
 
+.jumbotron-fluid {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    color: snow;
+    background: #2E0014;
 }
-.jumbotron-fluid{
-    padding: 10px;
-}
-.center h2{
+.jumbotron-fluid h1 {
+    font-size: 5rem;
+    width: 80vw;
     text-align: center;
 }
-.center li{
+.jumbotron-fluid p {
+    font-size: 1.8rem;
+    width: 80vw;
     text-align: center;
 }
-li {
-    list-style: none;
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #442220;
 }
-/* -------- */
-.header-bg{
-    background-color: #f76c5e;
+.center h2 {
+    margin: 4rem;
+    color: snow;
 }
-.jumbotron-fluid{
-    /* background-color: #f76c5e; */
-    
-    text-align: center;
+ol {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
-.jumbotron-fluid h1{
-    color: white;
-    font-size: 8rem;
+ol li {
+    margin:2rem 3rem;
+    font-size: 1.8rem;
 }
-.jumbotron-fluid p{
-    color: white;
-   
+li a {
+    text-decoration: none;
 }
-#footer{
-    background-color: blue;
-    text-align: center;
-    color: red;
-    bottom: 0px;
+li:hover {
+    text-decoration: none;
+    animation-name: bigger;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.45,.05,.55,.95);
 }
-
-.list-grid ol{
-    column-count: 3;
+footer{
+    background: #2E0014;
+    color:snow;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-@media (max-width: 768px) {
-    .jumbotron-fluid h1 {
-        font-size: 4rem;
+@keyframes bigger {
+    0% {
+        font-size: 1.8rem;
+        margin:2rem 3rem;
+        color: rgba(132, 0, 255, 0.856);
+    }
+    100% {
+        color: rgba(51, 255, 0, 0.856);
+        font-size: 2rem;
+        margin:1.5rem 2.5rem;
     }
 }
-
