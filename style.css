@@ -3,14 +3,17 @@
     box-sizing: border-box;
 }
 h1{
-    margin: 0;
+    margin: 2rem;
 
 }
 .jumbotron-fluid{
     padding: 10px;
 }
 .center h2{
+    margin-top: 0;
     text-align: center;
+    margin-bottom: 4rem;
+    font-weight: bold;
 }
 .center li{
     text-align: center;
@@ -20,7 +23,7 @@ li {
 }
 /* -------- */
 .header-bg{
-    background-color: #f76c5e;
+    background-color: black;
 }
 .jumbotron-fluid{
     /* background-color: #f76c5e; */
@@ -29,12 +32,35 @@ li {
 }
 .jumbotron-fluid h1{
     color: white;
-    font-size: 8rem;
+    font-size: 7rem;
+    font-family: 'Bitter', serif;
+    font-family: 'Source Serif Pro', serif;
+    color: #fb8500;
+    font-weight: bold;
 }
 .jumbotron-fluid p{
-    color: white;
-   
+   /* color: #56cfe1;*/
+    font-family: 'Bitter', serif;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2rem;
+    color: white;  
 }
+
+.btn
+{
+    border-radius: 30rem;
+    padding: 2rem;
+    background-color: #fb8500;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.center{
+    background-color: #edf2f4;
+}
+
 #footer{
     background-color: blue;
     text-align: center;
@@ -51,4 +77,3 @@ li {
         font-size: 4rem;
     }
 }
-
