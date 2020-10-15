@@ -7,7 +7,7 @@ h1{
 
 }
 .jumbotron-fluid{
-    padding: 10px;
+    padding: 20px;
 }
 .center h2{
     text-align: center;
@@ -28,11 +28,11 @@ li {
     text-align: center;
 }
 .jumbotron-fluid h1{
-    color: white;
+    color: green;
     font-size: 8rem;
 }
 .jumbotron-fluid p{
-    color: white;
+    color: green;
    
 }
 #footer{
@@ -46,7 +46,7 @@ li {
     column-count: 3;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
     .jumbotron-fluid h1 {
         font-size: 4rem;
     }
