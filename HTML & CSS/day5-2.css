@@ -1,0 +1,108 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.clc{
+	clear: both;
+}
+body{
+	background: #b0b0b0;
+}
+.back{
+	height: 130px;
+	float: left;
+	padding: 5px;	
+}
+.head{
+	border-bottom: 15px solid #d7d7d7;
+}
+.container{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+}
+.call{
+	color: blue;
+	float: right;
+	padding: 15px;
+	text-align: right;
+}
+.call a{
+
+}
+.nav{
+	background: #d7d7d7;
+}
+.nav ul{
+	padding: 10px 0px 0px 0px;
+	float: right;list-style-type: none;
+}
+.nav ul li{
+	float: left;
+	width: 100px;
+	border-left: 2px solid white;
+	text-align: center;
+	background: #064570;
+	font-size: 13px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	margin: 10px 0px 0px 0px;
+	padding: 7px;
+}
+.nav ul li a:hover{
+	color: red;
+}
+.active a{
+	color: red;
+	background: #d7d7d7;
+}
+.content{
+	float: left;
+	width: 65%;
+	text-align: justify;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.h1{
+	color: #0f77be;
+	border-right: 1px dotted black;
+	padding-right: 20px;
+}
+.bullet{
+	margin-left: 15px;
+}
+.copyright{
+	background: #044470;
+}
+.cname{
+	color: white;
+	float: left;
+	margin: 7px 7px 7px 18px;
+}
+.cobj{
+	color: white;
+	float: right;
+	margin: 7px 18px 7px 7px;
+}
+
+.h2{
+	color: #0f77be;	
+	float: right;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+.list ul{
+	font-size: 26px;	
+}
+.list ul li{
+	color: white;
+	list-style: none;
+	margin: 60px;
+}
+.list ul li a{
+	text-decoration: none;		
+}
