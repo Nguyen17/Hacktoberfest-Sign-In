@@ -11,6 +11,8 @@ h1{
 }
 .center h2{
     text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size:40px;
 }
 .center li{
     text-align: center;
@@ -20,30 +22,50 @@ li {
 }
 /* -------- */
 .header-bg{
-    background-color: #f76c5e;
+    background-color: brown;
 }
 .jumbotron-fluid{
     /* background-color: #f76c5e; */
-    
+    border: 2px solid white;
+    padding:30px;
     text-align: center;
 }
 .jumbotron-fluid h1{
-    color: white;
-    font-size: 8rem;
+    color: #FFCC99;
+    font-size: 7rem;
+    font-family: 'Henny Penny', cursive;
 }
+
 .jumbotron-fluid p{
-    color: white;
+    padding:10px;
+    font-size:20px;
+    color: #FFCC99;
+    font-family: 'Roboto', sans-serif;
+
    
 }
 #footer{
-    background-color: blue;
+    background-color: brown;
     text-align: center;
     color: red;
     bottom: 0px;
 }
-
+.list-grid{
+    padding:10px;
+    background-image:linear-gradient(rgba(255, 204, 153,0.5),#FFCC99,rgba(255, 204, 153,0.5));
+}
 .list-grid ol{
     column-count: 3;
+}
+.list-grid a{
+        color:brown;
+        font-family: 'Roboto', sans-serif;
+
+
+}
+.list-grid h2{
+    padding:0px 0px 30px 0px;
+    color:brown;
 }
 
 @media (max-width: 768px) {
