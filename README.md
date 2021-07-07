@@ -28,3 +28,12 @@ In the index file, look for the 'ol' tag. Then insert a 'li' tag with your link 
 ### Installation
 
 Make sure [git](https://git-scm.com/book/id/v2/Getting-Started-Installing-Git) is installed.
+
+# Adding Labels
+
+
+  - Open a repository you had contributed in 
+  - Select the "Pull request" tab
+  - Click on white colored button saying "Labels"
+  - Click on "New Label" on right side depicted in green color
+  - Write "Hactoberfest" in tab & now you are done baby
