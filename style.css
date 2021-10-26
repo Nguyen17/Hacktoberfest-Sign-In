@@ -1,13 +1,18 @@
 /* CSS Class */
-* {
-    box-sizing: border-box;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 h1{
     margin: 0;
 
 }
 .jumbotron-fluid{
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .center h2{
     text-align: center;
@@ -18,12 +23,12 @@ h1{
 li {
     list-style: none;
 }
-/* -------- */
+
 .header-bg{
     background-color: #f76c5e;
 }
 .jumbotron-fluid{
-    /* background-color: #f76c5e; */
+    background-color: #f76c5e; 
     
     text-align: center;
 }
