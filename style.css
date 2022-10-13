@@ -46,6 +46,52 @@ li {
     column-count: 3;
 }
 
+
+
+
+
+
+.footer .box{
+    flex:1 1 250px;
+}
+
+.footer .box h3{
+    font-size: 20px;
+    color:var(--black);
+}
+
+.footer .box a{
+    display: block;
+    font-size: 14px;
+    color:#777;
+    padding:5px 0;
+}
+
+.footer .box a:hover{
+    color:var(--main-color);
+}
+
+.footer .credit{
+    text-align: center;
+    color:var(--black);
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.footer .credit span{
+    color:var(--main-color);
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .jumbotron-fluid h1 {
         font-size: 4rem;
