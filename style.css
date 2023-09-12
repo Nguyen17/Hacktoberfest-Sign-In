@@ -20,7 +20,7 @@ li {
 }
 /* -------- */
 .header-bg{
-    background-color: #f76c5e;
+    background-color: #99cbd1;
 }
 .jumbotron-fluid{
     /* background-color: #f76c5e; */
@@ -51,4 +51,7 @@ li {
         font-size: 4rem;
     }
 }
-
+.list-grid 
+{
+    background-color: #F4F2DE;
+}
