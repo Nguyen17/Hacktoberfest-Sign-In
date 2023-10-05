@@ -1,4 +1,9 @@
 /* CSS Class */
+.btn-lg{
+    border: 2px rgb(243, 58, 58) solid;
+    border-radius: 10px;
+}
+
 * {
     box-sizing: border-box;
 }
