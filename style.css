@@ -18,6 +18,14 @@ h1{
 li {
     list-style: none;
 }
+
+h2 {margin-bottom: 20px;
+   font-weight: 600;}
+
+a {color: white;}
+
+ol {background-color: #f76c5e;
+   padding: 10px;}
 /* -------- */
 .header-bg{
     background-color: #f76c5e;
