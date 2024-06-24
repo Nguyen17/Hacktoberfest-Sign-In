@@ -22,9 +22,7 @@ li {
 .header-bg{
     background-color: #f76c5e;
 }
-.jumbotron-fluid{
-    /* background-color: #f76c5e; */
-    
+.jumbotron-fluid{    
     text-align: center;
 }
 .jumbotron-fluid h1{
