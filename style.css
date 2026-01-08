@@ -52,3 +52,14 @@ li {
     }
 }
 
+/* Search Bar UI */
+.search-container {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}

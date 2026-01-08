@@ -37,14 +37,23 @@
     <!--  -->
 
     <div class="section center list-grid">
+      
+      <!-- Search Bar -->
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="searchInput" 
+          class="form-control search-bar" 
+          placeholder="Search contributors by name..."
+        >
+      </div>
       <h2></br>October 2017</h2>
-
       <!-- SIGN IN HERE -->
       <ol>
         <!--
                 In this format:
                 <li><a href ="[link to your portfolio/github page]">[user name here]</a></li>
-        -->
+        -->     <li><a href="https://github.com/Saobia3i">Saobia Islam Tinni</a></li>
 		            <li><a href="https://github.com/reeechi">Reeechi</a></li>
                 <li><a href="https://github.com/jumbobae">Jumbobae</a></li>
                 <li><a href="https://github.com/daksh249">daksh249</a></li>
@@ -149,6 +158,17 @@
   <!-- </div> -->
   <!-- Full Page End -->
   <!-- Script -->
+   <script>
+  $(document).ready(function () {
+    $("#searchInput").on("keyup", function () {
+      var value = $(this).val().toLowerCase();
+      $(".list-grid ol li").filter(function () {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+      });
+    });
+  });
+</script>
+
   <script>
     $(document).ready(function() {
       $('#fullpage').fullpage();
